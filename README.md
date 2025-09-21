@@ -1,8 +1,14 @@
 # Flutter Coding Task - Onboarding Screen
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&logo=github)](https://github.com/dbestdev/flutter-coding-task-onboarding)
+[![Flutter](https://img.shields.io/badge/Flutter-3.32.8-blue?style=flat-square&logo=flutter)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.8.1-blue?style=flat-square&logo=dart)](https://dart.dev)
+
 ## 📱 Project Overview
 
 This project implements a mobile onboarding screen based on the provided Figma design. The implementation focuses on UI fidelity, responsive design, and Flutter best practices.
+
+**🔗 Repository**: [https://github.com/dbestdev/flutter-coding-task-onboarding](https://github.com/dbestdev/flutter-coding-task-onboarding)
 
 ## 🎯 Task Requirements Met
 
@@ -25,8 +31,8 @@ This project implements a mobile onboarding screen based on the provided Figma d
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd coding_task_app
+   git clone https://github.com/dbestdev/flutter-coding-task-onboarding.git
+   cd flutter-coding-task-onboarding
    ```
 
 2. **Install dependencies**

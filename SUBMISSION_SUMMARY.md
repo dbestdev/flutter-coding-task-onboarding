@@ -3,7 +3,7 @@
 ## 📋 Deliverables Checklist
 
 ### ✅ GitHub Repository
-- **Repository**: Private repository with complete Flutter project
+- **Repository**: [https://github.com/dbestdev/flutter-coding-task-onboarding](https://github.com/dbestdev/flutter-coding-task-onboarding) (Public)
 - **Structure**: Clean, organized codebase with proper file structure
 - **Documentation**: Comprehensive README with setup instructions
 
@@ -75,12 +75,13 @@
 - **Theme**: Custom AppTheme with comprehensive styling
 - **Dependencies**: Flutter SDK only (no third-party packages)
 
-## 🔒 Confidentiality
+## 🔒 Repository Access
 
-- **Repository**: Private and secure
-- **Code**: Not shared publicly
+- **Repository**: [https://github.com/dbestdev/flutter-coding-task-onboarding](https://github.com/dbestdev/flutter-coding-task-onboarding)
+- **Visibility**: Public (as requested for coding task submission)
+- **Code**: Complete Flutter implementation
 - **Assets**: Properly licensed and used
-- **Documentation**: Internal use only
+- **Documentation**: Comprehensive setup and technical details
 
 ---
 
