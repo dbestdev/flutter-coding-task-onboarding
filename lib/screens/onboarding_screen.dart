@@ -249,13 +249,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   // Main text
                   Text(
                     'Connect with\nyour community\nwherever you are',
                     style: AppTheme.onboardingTitle,
-                    textAlign: TextAlign.left,
+                    textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 20), // 20px gap
                   // First Button
