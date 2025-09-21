@@ -249,93 +249,99 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   // Main text
                   Text(
                     'Connect with\nyour community\nwherever you are',
                     style: AppTheme.onboardingTitle,
-                    textAlign: TextAlign.center,
+                    textAlign: TextAlign.left,
                   ),
                   const SizedBox(height: 20), // 20px gap
                   // First Button
-                  Container(
-                    width: 342,
-                    height: 48,
-                    decoration: BoxDecoration(
-                      color: AppTheme.primaryPurple,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: const Center(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.apple,
-                            color: AppTheme.textOnDark,
-                            size: 18,
-                          ),
-                          SizedBox(width: 12),
-                          Text(
-                            'Continue with Apple ID',
-                            style: AppTheme.onboardingButtonText,
-                          ),
-                        ],
+                  Center(
+                    child: Container(
+                      width: 342,
+                      height: 48,
+                      decoration: BoxDecoration(
+                        color: AppTheme.primaryPurple,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: const Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              Icons.apple,
+                              color: AppTheme.textOnDark,
+                              size: 18,
+                            ),
+                            SizedBox(width: 12),
+                            Text(
+                              'Continue with Apple ID',
+                              style: AppTheme.onboardingButtonText,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
                   const SizedBox(height: 8), // 8px gap
                   // Second Button
-                  Container(
-                    width: 342,
-                    height: 48,
-                    decoration: BoxDecoration(
-                      color: AppTheme.secondaryBlue,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: Center(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/images/google.png',
-                            width: 14,
-                            height: 14,
-                          ),
-                          SizedBox(width: 12),
-                          Text(
-                            'Continue with Google',
-                            style: AppTheme.onboardingButtonText,
-                          ),
-                        ],
+                  Center(
+                    child: Container(
+                      width: 342,
+                      height: 48,
+                      decoration: BoxDecoration(
+                        color: AppTheme.secondaryBlue,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              'assets/images/google.png',
+                              width: 14,
+                              height: 14,
+                            ),
+                            SizedBox(width: 12),
+                            Text(
+                              'Continue with Google',
+                              style: AppTheme.onboardingButtonText,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
                   const SizedBox(height: 8), // 8px gap
                   // Third Button (Transparent)
-                  Container(
-                    width: 342,
-                    height: 48,
-                    decoration: BoxDecoration(
-                      color: Colors.transparent, // Transparent background
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(color: AppTheme.borderWhite, width: 1),
-                    ),
-                    child: Center(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.email_outlined,
-                            color: AppTheme.textOnDark,
-                            size: 18,
-                          ),
-                          SizedBox(width: 12),
-                          Text(
-                            'Continue with E-mail',
-                            style: AppTheme.onboardingButtonText,
-                          ),
-                        ],
+                  Center(
+                    child: Container(
+                      width: 342,
+                      height: 48,
+                      decoration: BoxDecoration(
+                        color: Colors.transparent, // Transparent background
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: AppTheme.borderWhite, width: 1),
+                      ),
+                      child: Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              Icons.email_outlined,
+                              color: AppTheme.textOnDark,
+                              size: 18,
+                            ),
+                            SizedBox(width: 12),
+                            Text(
+                              'Continue with E-mail',
+                              style: AppTheme.onboardingButtonText,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
